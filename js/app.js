@@ -8,7 +8,7 @@ myapp.controller('homecontroller', function ($scope,$http) {
 
        $http({
            method: 'GET',
-           url : "https://data.kcmo.org/resource/cyqf-nban.json?$limit=1000000"
+           url : "https://data.kcmo.org/resource/cyqf-nban.json?$limit=100000"
 
        }).then(function (response) {
 
